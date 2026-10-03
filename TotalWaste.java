@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class TotalWaste
+{
+    static double calculatetotalwaste(double point1waste, double point2waste)
+    {
+        return point1waste + point2waste;
+
+    }
+    public static void main(String[] args) 
+    {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("point1waste");
+    double point1Waste = sc.nextDouble();
+
+    System.out.println("point2waste");
+    double point2waste = sc.nextDouble();
+
+    double totalWaste = calculatetotalwaste(point1Waste, point2waste);
+    System.out.println(totalWaste);
+    }
+}
